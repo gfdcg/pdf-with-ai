@@ -9,15 +9,16 @@ from pathlib import Path
 # Imports pour le traitement PDF et RAG
 try:
     from langchain.text_splitter import RecursiveCharacterTextSplitter
-    from langchain.embeddings import HuggingFaceEmbeddings
-    from langchain.vectorstores import FAISS
-    from langchain.llms import Ollama
+    from langchain_community.embeddings import HuggingFaceEmbeddings
+    from langchain_community.vectorstores import FAISS
     from langchain.chains import RetrievalQA
-    from langchain.document_loaders import PyPDFLoader
+    from langchain_community.document_loaders import PyPDFLoader
+    from langchain_community.llms import Ollama
     from langchain_community.llms import Ollama as CommunityOllama
 except ImportError as e:
     st.error(f"Erreur d'import : {e}")
     st.stop()
+
 
 # Configuration de la page
 st.set_page_config(

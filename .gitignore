@@ -1,0 +1,32 @@
+# Environnements virtuels
+rag_env/
+venv/
+env/
+.venv/
+.env
+
+# Gros fichiers
+*.pdf
+*.bin
+*.pkl
+*.h5
+*.model
+*.safetensors
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Données et modèles
+data/
+models/
+cache/
+logs/
+
+# IDE et OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
