@@ -10,7 +10,7 @@ Un système de Retrieval-Augmented Generation (RAG) puissant pour analyser et in
  Interface web Streamlit moderne
  Support Docker pour déploiement facile
 
-🏗 Architecture
+ Architecture
 pdf-with-ai/
  rag_api.py              
  streamlit_app.py        
